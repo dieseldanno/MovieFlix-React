@@ -1,5 +1,11 @@
+import MoviesPage from "../Pages/MoviesPage";
+
 const MainLayout = () => {
-  return <main>MainLayout</main>;
+  return (
+    <main>
+      <MoviesPage />
+    </main>
+  );
 };
 
 export default MainLayout;

@@ -1,5 +1,7 @@
+import Header from "../Components/UI/Header";
+
 const MoviesPage = () => {
-  return <h1>Populära filmer</h1>;
+  return <Header title="Populära filmer" />;
 };
 
 export default MoviesPage;
